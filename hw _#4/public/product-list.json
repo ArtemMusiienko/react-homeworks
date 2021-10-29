@@ -1,0 +1,16 @@
+
+
+
+    [
+      { "id": 1, "name": "Apples",  "price": "$2", "url": "apple.jpg", "article":"20", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 2, "name": "Pears", "price": "$3" , "url": "pear.jpg", "article":"21", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 3, "name": "Pineapples", "price": "$4","url": "pineapple.jpg", "article":"22", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 4, "name": "Plums", "price": "$5","url": "plum.jpg", "article":"24", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 5, "name": "Oranges", "price": "$6","url": "orange.jpg", "article":"25", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 6, "name": "Agrus", "price": "$7","url": "agrus.jpg", "article":"26", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 7, "name": "Raspberrys", "price": "$8","url": "raspberrys.jpg", "article":"27", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 8, "name": "Strawberyys", "price": "$9","url": "strawberry.jpg", "article":"28", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 9, "name": "Peaches", "price": "$10","url": "peach.jpg", "article":"29", "color":"green", "logo":"logo-logo.svg"},
+      { "id": 10, "name": "Papayas", "price": "$11","url": "papaya.jpg", "article":"30", "color":"green", "logo":"logo-logo.svg"}
+    ]
+    
