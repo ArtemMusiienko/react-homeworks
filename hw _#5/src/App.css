@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(182, 221, 182);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.header{
+    background-color:rgb(150, 211, 138);
+    width: 100%;
+    height: 40px;
+
+}
+
+.product_container{
+    display: grid;
+ grid-gap: 3rem;
+ grid-template-columns: 230px 230px 230px 230px 230px;
+   
+    
+}
+
+
+.product_list{
+    border-style: solid;
+    border-width:5px;
+    border-color:rgb(126, 158, 126);
+    width: 230px;
+    height: 400px;
+    margin:5px;
+    padding:5px;
+    margin-left: 40px; 
+}
+
+.confirm-modal{
+    padding-top: 30px;
+    font-size:20px;
+    text-align: center;
+    height: 150px;
+    width: 400px;
+    background-color: rgb(175, 224, 175);
+    margin-left:35%;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+}
+.modal-ok{
+    
+    margin-top: 20px;
+    height: 20px;
+    width:60px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:blue;
+    text-align: center;
+    border: 6px solid rgb(175, 224, 175);
+    border-radius:10px;
+
+}
+.product_card{
+    background-color:blue;
+    width:80px;
+    height:20px;
+    margin-left:40%;
+    cursor: pointer;
+    border: 6px solid rgb(175, 224, 175);
+    border-radius:10px;
+  
+   
+}
+.product_icon{
+    float:right;
+    cursor: pointer;
+}
+.card-buscet{
+    position: absolute;
+    z-index: 99;
+    width:400px;
+    height: 250px;
+    background-color:rgb(175, 224, 175);;
+    margin-left: 35%;
+   
+}
+
+.btn-open{
+    text-align: center;
+    margin-top: 10px;
+
+    margin-right: 50px;
+    height:20px;
+    width:50px;
+    background-color:blue;
+    float:right;
+    border-radius:10px;
+    cursor: pointer;
+    
+}
+
+.btn-ok{
+   margin-top: 45%;
+   margin-left:45%;
+   height: 20px;
+   width:60px;
+   background-color:blue;
+   cursor: pointer;
+   border: 1px solid rgb(175, 224, 175);
+   border-radius:4px;
+   text-align: center;
+
+}
+.validation_btn{
+    height: 20px;
+    width:80px;
+    background-color:blue;
+    cursor: pointer;
+    border: 1px solid rgb(175, 224, 175);
+    border-radius:4px;
+    float: right;
+
+}
+.validation_form{
+    position:absolute;
+    height: 600px;
+    width:800px;
+    background-color:lightblue;
+    z-index: 130;
+}
+.validation_close{
+    float:right;
+    height: 20px;
+    width:60px;
+    background-color:blue;
+}
+
