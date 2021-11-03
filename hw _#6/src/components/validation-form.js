@@ -17,7 +17,7 @@ function Checkout (){
 
     return (
         <>
-        <div onClick={openValidation} className="validation_btn" >Checkout</div>
+        <div   data-testid="Checkout" onClick={openValidation} className="validation_btn" >Checkout</div>
         { validationOpen&&<div className="validation_form">
             <div className="validation_close" onClick={handleSubmit}>Close</div>
         <Formik

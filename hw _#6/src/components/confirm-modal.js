@@ -7,6 +7,7 @@ import {
   } from "react-router-dom";
   function ConfirmModal(props){
       const [modalIsOpen, setModalOpen] = useState(true)
+
   const modalWillClose=()=>{
       setModalOpen();
       
@@ -14,7 +15,7 @@ import {
 
     return(
       <>
-   {modalIsOpen&&<div className="confirm-modal"> Ваш товар успешно добавлен в корзину
+   {modalIsOpen&&< div   data-testid="ConfirmModal" className="confirm-modal"> Ваш товар успешно добавлен в корзину
     <div onClick={modalWillClose} className="modal-ok">OK</div>
     
     </div>}
